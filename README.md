@@ -43,9 +43,9 @@ For preprocessing target domain dataset (treccovid is used as the example here):
 
 `bash preprocess_beir.sh treccovid`
 
-We have also created a dataset called `tinymsmarco`, which can be useful for debugging. [Download](https://jxin.blob.core.windows.net/release/datasets/tinymsmarco.zip) and put it into `data/tinymsmarco`.
+We have also created a dataset called `tinymsmarco`, which can be useful for debugging. [Download](https://git.uwaterloo.ca/j9xin/modir-release/-/raw/master/datasets/tinymsmarco.zip) and put it into `data/tinymsmarco`.
 
-The `treccovid` dataset after our processing, including `marco-format`, `preprocessed_data`, and `triples.simple.tsv`, can be downloaded at https://jxin.blob.core.windows.net/release/datasets/treccovid.zip.
+The `treccovid` dataset after our processing, including `marco-format`, `preprocessed_data`, and `triples.simple.tsv`, can be downloaded at https://git.uwaterloo.ca/j9xin/modir-release/-/raw/master/datasets/treccovid.zip.
 
 ## Download Checkpoints
 
@@ -55,9 +55,9 @@ ANCE warmup (which is essentially DPR): https://webdatamltrainingdiag842.blob.co
 
 ANCE passage: https://webdatamltrainingdiag842.blob.core.windows.net/semistructstore/OpenSource/Passage_ANCE_FirstP_Checkpoint.zip
 
-MoDIR-ANCE (treccovid, 10k steps): https://jxin.blob.core.windows.net/release/checkpoints/modir-treccovid-10k.zip
+MoDIR-ANCE (treccovid, 10k steps): https://git.uwaterloo.ca/j9xin/modir-release/-/raw/master/checkpoints/modir-treccovid-10k.zip
 
-MoDIR-ANCE (treccovid, 50k steps): https://jxin.blob.core.windows.net/release/checkpoints/modir-treccovid-50k.zip
+MoDIR-ANCE (treccovid, 50k steps): https://git.uwaterloo.ca/j9xin/modir-release/-/raw/master/checkpoints/modir-treccovid-50k.zip
 
 ## Run Inference and Evaluation
 
@@ -91,7 +91,7 @@ Continue training MoDIR from ANCE-passage:
 
 ## Citation
 
-Please consider citing out paper:
+Please consider citing our paper:
 ```
 @inproceedings{xin-etal-2022-zero,
     title = "Zero-Shot Dense Retrieval with Momentum Adversarial Domain Invariant Representations",
